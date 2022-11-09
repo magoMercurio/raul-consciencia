@@ -9,11 +9,13 @@ body {
 	padding: 20px;
 	max-width: 65ch;
 	text-align: left;
-	background-color: #fff;
+	background: linear-gradient(15deg, rgba(42, 62, 142, 1), #5681f4, rgba(217, 137, 137, 1));
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	line-height: 1.5;
-	color: #444;
+	color: rgb(231, 228, 228);
+
+	
 }
 h1,
 h2,
