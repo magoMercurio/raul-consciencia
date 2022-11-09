@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "Tercero"
 description: "Reflexion sobre Sindrome del Impostor"
 pubDate: "Nov 09 2022"
-heroImage: "/public/si-reflex-s.png"
+heroImage: "/img/post/si-reflex-s.png"
 ---
 
 
