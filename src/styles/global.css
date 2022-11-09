@@ -10,9 +10,6 @@ body {
 	max-width: 65ch;
 	text-align: left;
 	background: linear-gradient(15deg, rgba(42, 62, 142, 1), #5681f4, rgba(217, 137, 137, 1));
-	background-size: contain;
-	word-wrap: break-word;
-	overflow-wrap: break-word;
 	line-height: 1.5;
 	color: rgb(231, 228, 228);
 
