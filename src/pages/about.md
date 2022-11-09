@@ -3,7 +3,7 @@ layout: "../layouts/BlogPost.astro"
 title: "Sobre mi"
 description: "Lorem ipsum dolor sit amet"
 updatedDate: "Noviembre 09 2022"
-heroImage: "/public/img/profile_img.jpeg"
+heroImage: "/public/profile_img.jpeg"
 ---
 
 Me llamo Raúl Dávila, soy un terapeuta licenciado en Psicología con formación en Bioneuroemoción.
