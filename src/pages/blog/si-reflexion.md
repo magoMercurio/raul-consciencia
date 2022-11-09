@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "Reflexion sobre Sindrome del Impostor"
 description: "Reflexion sobre Sindrome del Impostor"
 pubDate: "Nov 09 2022"
-heroImage: "/public/si-reflex-s.png"
+heroImage: "/si-reflex-s.png"
 ---
 
 >__Aumentar tu entendimiento te ayudará a gestionar el Sindrome del Impostor para que no te suponga un lastre.__

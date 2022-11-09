@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "Segundo"
 description: "Reflexion sobre Sindrome del Impostor"
 pubDate: "Nov 09 2022"
-heroImage: "/public/si-reflex-s.png"
+heroImage: "/profile_img.jpeg"
 ---
 
 __El síndrome del impostor__ puede ser un trastorno debilitante para algunos, pero hay buenas noticias. No solo se pueden superar sus efectos negativos, sino que también podemos sacar ventaja de ellos. Como con cualquier asunto relacionado con la salud mental, el reconocimiento es siempre el primer paso y hemos analizado a fondo las diversas causas, factores y moderadores del síndrome a lo largo de este libro para ayudarte a descubrir si tú o alguien a quien conoces lo padece. Una vez has aceptado y entendido mejor el trastorno, puedes comenzar a poner en práctica las estrategias recomendadas para tratar tu SI y mejorar tu autoestima.
