@@ -3,13 +3,21 @@
   https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
+* {
+	box-sizing: border-box;
+}
+
+html {
+	background: linear-gradient(15deg, rgba(42, 62, 142, 1), #5681f4, rgba(217, 137, 137, 1));
+
+}
+
 body {
 	font-family: Verdana, sans-serif;
 	margin: auto;
 	padding: 20px;
 	max-width: 65ch;
 	text-align: left;
-	background: linear-gradient(15deg, rgba(42, 62, 142, 1), #5681f4, rgba(217, 137, 137, 1));
 	line-height: 1.5;
 	color: rgb(231, 228, 228);
 
@@ -26,7 +34,7 @@ b {
 	color: #222;
 }
 a {
-	color: #3273dc;
+	color: #dcc332;
 }
 nav a {
 	margin-right: 10px;
