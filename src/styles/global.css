@@ -2,13 +2,16 @@
   The CSS in this style tag is based off of Bear Blog's default CSS.
   https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
+
+  https://colorkit.io/#031a2b-#fff400-7
+
  */
 * {
 	box-sizing: border-box;
 }
 
 html {
-	background-color: #0d1117;
+	background-color: #031a2b;
 
 }
 
@@ -31,10 +34,10 @@ h5,
 h6,
 strong,
 b {
-	color: rgb(29, 146, 78);
+	color: #FFF400;
 }
 a {
-	color: #dcc332;
+	color: #818616;
 }
 nav a {
 	margin-right: 10px;
@@ -54,7 +57,7 @@ table {
 }
 img {
 	max-width: 100%;
-	height: auto;
+	height: fit-content;
 }
 code {
 	padding: 2px 5px;
