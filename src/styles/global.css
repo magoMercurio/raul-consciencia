@@ -7,6 +7,7 @@
 
  */
 * {
+	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
@@ -42,6 +43,11 @@ a {
 nav a {
 	margin-right: 10px;
 }
+
+a:hover {
+	color: #fddb3a;
+}
+
 textarea {
 	width: 100%;
 	font-size: 16px;
