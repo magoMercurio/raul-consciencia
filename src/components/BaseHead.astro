@@ -27,8 +27,10 @@ const { title, description, image = '/img/port.png' } = Astro.props;
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://raul-consciencia.netlify.app/" />
+<meta property="og:url" content={Astro.url} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
+<meta property="og:image" content={new URL(image, Astro.url)} />
 <meta property="og:image" content="/img/port.png" />
 
 <!-- Twitter -->
