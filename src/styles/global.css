@@ -3,8 +3,7 @@
   https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
 
-  https://colorkit.io/#031a2b-#fff400-7
-
+  https://colorkit.io/#0064b2-#fff400-7
  */
 * {
 	-webkit-box-sizing: border-box;
@@ -12,7 +11,7 @@
 }
 
 html {
-	background-color: #685fa4;
+	background-color: #0064B2;
 
 }
 
