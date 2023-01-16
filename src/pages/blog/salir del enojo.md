@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/BlogPost.astro"
 title: "Tips para salir del enojo"
-description: "tar enfadado, frustrado o molesto es normal. Lo sentimos porque, al fin y al cabo, somos humanos y eso forma parte de nuestra naturaleza"
+description: "Estar enfadado, frustrado o molesto es normal. Lo sentimos porque, al fin y al cabo, somos humanos y eso forma parte de nuestra naturaleza"
 pubDate: "Jan 15 2023"
 heroImage: "/img/post/enojo.jpg"
 ---
