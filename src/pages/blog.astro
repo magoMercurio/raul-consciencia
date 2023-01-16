@@ -1,4 +1,5 @@
 ---
+
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
@@ -18,36 +19,85 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 			ul {
 				list-style-type: none;
 				padding: unset;
+
 			}
 			ul li {
 				display: flex;
+				flex-direction: column;
+				word-wrap: break-word;
+				padding-bottom: 15px;
 			}
+
+			ul li a {
+				font-size: 20px;
+			}
+
 			ul li time {
 				flex: 0 0 130px;
 				font-style: italic;
-				color:  rgb(231, 228, 228);
+				font-size:12px;
+				color:  rgb(172, 156, 156);
 			}
-			ul li a:visited {
-				color: #2D3E24;
+			/* ul li a:visited {
+				color: #818616;
+			}
+			*/
+
+			.preview-container {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				
+		
+			}
+
+
+			.img-blog {
+				width:450px;
+				padding-bottom: 15px;
+			
 			}
 		</style>
+
 	</head>
 	<body>
 		<Header />
 		<main>
 			<section>
+				<p>
+					Deseo compartir con ustedes mis experiencias, mis esfuerzos y mis aprendizajes sobre temas relacionados con la salud mental y el bienestar físico.
+					</p>
+			</section>
+			<section>
 				<ul>
-					{posts.map((post) => (
+					{posts.map((post, index) => (
 						<li>
-							<time datetime={post.frontmatter.pubDate}>
+							<a href={post.url}>
+							<span>{post.frontmatter.title}</span>
+							</a>
+							<span>
+								<time datetime={post.frontmatter.pubDate}>
 								{new Date(post.frontmatter.pubDate).toLocaleDateString('en-us', {
-									year: 'numeric',
-									month: 'short',
-									day: 'numeric',
+								year: 'numeric',
+								month: 'short',
+								day: 'numeric',
 								})}
-							</time>
-							<a href={post.url}>{post.frontmatter.title}</a>
+								</time>
+							</span>
+							<div class="preview-container">
+								
+								<a class="preview-contain" href={post.url}>
+									<img
+									class="img-blog"
+									src={post.frontmatter.heroImage}
+									alt="img-preview"
+									loading={index === 0 ? "eager" : "lazy"}
+									/>	
+								</a>
+								{post.frontmatter.description}
+							</div>	
 						</li>
+						<hr	/>
 					))}
 				</ul>
 			</section>
